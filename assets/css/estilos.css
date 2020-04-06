@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(47, 78, 192);
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(44, 120, 150);
+   font-family:'Titillium Web', sans-serif;
+}
+
+span{
+    font-size: 24px;
+    color: #333;
+    font-weight: bolder;
+}
+
+a{
+    font-family: 'Titillium Web', sans-serif;
+    color: #F8ECE0 ;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.link{
+    background-color: #086A87;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.link:hover{
+    background-color: #0489B1;
+}
+
+input[type='text'], input[type='password'], input[type='email']{
+    outline:none ;
+    padding: 30px;
+    display: flex;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+
+input[type='submit']{
+    padding: 10px;
+    color:white ;
+    background-color:#086A87 ;
+    width:320px ;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    background-color:#0489B1 ;
+    color: #CEECF5;
+}
+
+header{
+    border-bottom: 2px solid rgb(78, 134, 180) ;
+    padding: 20px 0;
+    margin-bottom:10px ;
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color:#086A87 ;
+}
